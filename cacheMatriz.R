@@ -1,7 +1,7 @@
 
 # Some variables  were written in Portuguese,but the functions were writen in english
 
-# the makeCacheMatriz function verifies if the inverse of a matrix has already been calculated.And returns the inverse matriz when it is true
+# the makeCacheMatriz function verifies if the inverse of a matrix has already been calculated and returns this inverse matriz
 
 makeCacheMatrix<-function(x = matrix()){
   
