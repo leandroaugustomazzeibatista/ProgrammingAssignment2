@@ -1,4 +1,9 @@
-fazerCacheMatriz<-function(x = matrix()){
+
+# Some variables  were written in Portuguese,but the functions were writen in english
+
+# the makeCacheMatriz function verifies if the inverse of a matrix has already been calculated.And returns the inverse matriz when it is true
+
+makeCacheMatrix<-function(x = matrix()){
   
   matrizInversa <-NULL
   
@@ -22,7 +27,9 @@ fazerCacheMatriz<-function(x = matrix()){
   
 }
 
-obterMatrizInversa <- function(x, ...){
+    #This function calculates the inverse of a matriz for the first time
+
+  cacheSolve <- function(x, ...){
   
   matrizInversa<-x$getInversao()
   
